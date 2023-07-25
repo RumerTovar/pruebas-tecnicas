@@ -3,7 +3,14 @@
 export default {
  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
  theme: {
-  extend: {},
+  extend: {
+   fontFamily: {
+    body: ['Lustria'],
+   },
+   colors: {
+    buttom: '#E07E7E',
+   },
+  },
  },
  plugins: [],
 };
